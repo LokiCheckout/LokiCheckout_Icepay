@@ -1,0 +1,6 @@
+{
+  "ignore": [
+    "Icepay_Payment",
+    "icepay/magento2"
+  ]
+}

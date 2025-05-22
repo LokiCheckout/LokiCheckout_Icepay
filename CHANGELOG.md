@@ -6,3 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 22 May 2025
+### Initial release
+- Payment redirect
+- Payment icons
+
+
