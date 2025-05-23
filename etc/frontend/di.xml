@@ -26,6 +26,7 @@
                 <item name="icepay_ideal" xsi:type="string">Yireo_LokiCheckoutIcepay::images/method/ideal.svg</item>
                 <item name="icepay_paypal" xsi:type="string">Yireo_LokiCheckoutIcepay::images/method/paypal.svg</item>
                 <item name="icepay_sofort" xsi:type="string">Yireo_LokiCheckoutIcepay::images/method/sofort.svg</item>
+                <item name="icepay_onlineueberweisen" xsi:type="string">Yireo_LokiCheckoutIcepay::images/method/onlineueberweisen.svg</item>
             </argument>
         </arguments>
     </type>
