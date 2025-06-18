@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.1] - 26 May 2025
+## [1.0.1] - 18 June 2025
 ### Fixed
 - Icon for `icepay_onlineueberweisen`
 
