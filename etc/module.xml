@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="Yireo_LokiCheckoutIcepay">
+    <module name="LokiCheckout_Icepay">
         <sequence>
-            <module name="Yireo_LokiCheckout"/>
-            <module name="Yireo_LokiFieldComponents"/>
+            <module name="LokiCheckout_Core"/>
+            <module name="Loki_FieldComponents"/>
             <module name="Icepay_Payment"/>
             <module name="Magento_Store"/>
         </sequence>

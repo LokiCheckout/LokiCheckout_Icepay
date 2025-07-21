@@ -1,32 +1,32 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <type name="Yireo\LokiCheckout\Payment\Icon\IconResolverListing">
+    <type name="LokiCheckout\Core\Payment\Icon\IconResolverListing">
         <arguments>
             <argument name="iconResolvers" xsi:type="array">
-                <item name="empty-payment" xsi:type="object">Yireo\LokiCheckoutIcepay\Payment\Icon\IconResolver</item>
+                <item name="empty-payment" xsi:type="object">LokiCheckout\Icepay\Payment\Icon\IconResolver</item>
             </argument>
         </arguments>
     </type>
 
-    <type name="Yireo\LokiCheckout\Payment\Redirect\RedirectResolverListing">
+    <type name="LokiCheckout\Core\Payment\Redirect\RedirectResolverListing">
         <arguments>
             <argument name="redirectResolvers" xsi:type="array">
-                <item name="empty-payment" xsi:type="object">Yireo\LokiCheckoutIcepay\Payment\Redirect\RedirectResolver</item>
+                <item name="empty-payment" xsi:type="object">LokiCheckout\Icepay\Payment\Redirect\RedirectResolver</item>
             </argument>
         </arguments>
     </type>
 
-    <type name="Yireo\LokiCheckoutIcepay\Payment\Icon\IconResolver">
+    <type name="LokiCheckout\Icepay\Payment\Icon\IconResolver">
         <arguments>
             <argument name="iconMapping" xsi:type="array">
-                <item name="icepay_bancontact" xsi:type="string">Yireo_LokiCheckoutIcepay::images/method/bancontact.svg</item>
-                <item name="icepay_creditcard" xsi:type="string">Yireo_LokiCheckoutIcepay::images/method/creditcard.svg</item>
-                <item name="icepay_direct_debit" xsi:type="string">Yireo_LokiCheckoutIcepay::images/method/direct_debit.svg</item>
-                <item name="icepay_eps" xsi:type="string">Yireo_LokiCheckoutIcepay::images/method/eps.svg</item>
-                <item name="icepay_ideal" xsi:type="string">Yireo_LokiCheckoutIcepay::images/method/ideal.svg</item>
-                <item name="icepay_paypal" xsi:type="string">Yireo_LokiCheckoutIcepay::images/method/paypal.svg</item>
-                <item name="icepay_sofort" xsi:type="string">Yireo_LokiCheckoutIcepay::images/method/sofort.svg</item>
-                <item name="icepay_onlineueberweisen" xsi:type="string">Yireo_LokiCheckoutIcepay::images/method/onlineueberweisen.svg</item>
+                <item name="icepay_bancontact" xsi:type="string">LokiCheckout_Icepay::images/method/bancontact.svg</item>
+                <item name="icepay_creditcard" xsi:type="string">LokiCheckout_Icepay::images/method/creditcard.svg</item>
+                <item name="icepay_direct_debit" xsi:type="string">LokiCheckout_Icepay::images/method/direct_debit.svg</item>
+                <item name="icepay_eps" xsi:type="string">LokiCheckout_Icepay::images/method/eps.svg</item>
+                <item name="icepay_ideal" xsi:type="string">LokiCheckout_Icepay::images/method/ideal.svg</item>
+                <item name="icepay_paypal" xsi:type="string">LokiCheckout_Icepay::images/method/paypal.svg</item>
+                <item name="icepay_sofort" xsi:type="string">LokiCheckout_Icepay::images/method/sofort.svg</item>
+                <item name="icepay_onlineueberweisen" xsi:type="string">LokiCheckout_Icepay::images/method/onlineueberweisen.svg</item>
             </argument>
         </arguments>
     </type>

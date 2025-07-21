@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Yireo\LokiCheckoutIcepay\Payment\Redirect;
+namespace LokiCheckout\Icepay\Payment\Redirect;
 
 use Magento\Framework\UrlFactory;
-use Yireo\LokiCheckout\Payment\Redirect\RedirectResolverInterface;
-use Yireo\LokiCheckout\Step\FinalStep\RedirectContext;
+use LokiCheckout\Core\Payment\Redirect\RedirectResolverInterface;
+use LokiCheckout\Core\Step\FinalStep\RedirectContext;
 
 class RedirectResolver implements RedirectResolverInterface
 {

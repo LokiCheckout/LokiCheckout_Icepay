@@ -1,7 +1,7 @@
 {
     "modules": [
-        "Yireo_LokiCheckout",
-        "Yireo_LokiFieldComponents",
+        "LokiCheckout_Core",
+        "Loki_FieldComponents",
         "Icepay_Payment",
         "Magento_Store"
     ],
