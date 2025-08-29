@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.1] - 29 August 2025
+### Fixed
+- Add CI files
+- Replace yireo/opensearch with yireo/opensearch-dummy in Gitlab CI
+
 ## [2.0.0] - 22 July 2025
 ### Fixed
 - Rename PHP namespace from `Yireo_Loki*` to `Loki*`
