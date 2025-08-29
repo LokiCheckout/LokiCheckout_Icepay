@@ -1,7 +1,6 @@
 {
     "modules": [
         "LokiCheckout_Core",
-        "Loki_FieldComponents",
         "Icepay_Payment",
         "Magento_Store"
     ],
