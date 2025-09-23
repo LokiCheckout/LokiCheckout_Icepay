@@ -4,12 +4,12 @@ namespace LokiCheckout\Icepay\Payment\Icon;
 
 use LokiCheckout\Core\Payment\Icon\IconResolverContext;
 use LokiCheckout\Core\Payment\Icon\IconResolverInterface;
-use Loki\Components\Util\ImageOutput;
+use Loki\Components\Util\Block\ImageRenderer;
 
 class IconResolver implements IconResolverInterface
 {
     public function __construct(
-        private ImageOutput $imageOutput,
+        private ImageRenderer $imageRenderer,
         private array $iconMapping = [],
     ) {
     }
@@ -26,6 +26,6 @@ class IconResolver implements IconResolverInterface
         }
 
         $imageId = $this->iconMapping[$paymentMethodCode];
-        return $this->imageOutput->get($imageId);
+        return $this->imageRenderer->get($imageId);
     }
 }
