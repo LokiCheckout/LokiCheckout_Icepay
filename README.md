@@ -1,15 +1,15 @@
 # LokiCheckout_Icepay
 
-**This is an add-on package to the LokiCheckout. It is only a dummy to kickstart new modules easily.**
+**This Magento 2 module is an add-on package to the LokiCheckout. It integrates the ICEpay module into the LokiCheckout.**
 
 ## Installation
-Install this package via composer (assuming you have setup the `composer.yireo.com` repository correctly already):
+Install this package via composer:
 ```bash
 composer require loki-checkout/magento2-icepay
 ```
 
 Next, enable this module:
 ```bash
-bin/magento module:enable LokiCheckout_Icepay
+bin/magento module:enable LokiCheckout_Icepay Icepay_Payment
 ```
 
