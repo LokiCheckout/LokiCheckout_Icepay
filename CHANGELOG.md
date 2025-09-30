@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.3] - 30 September 2025
+### Fixed
+- Copy generic CI/CD files
+- Update MODULE.json
+- Update README
+
 ## [2.0.2] - 24 September 2025
 ### Fixed
 - Implement new imageRenderer
