@@ -1,16 +1,16 @@
 {
-    "name": "loki-checkout/magento2-icepay",
+    "name": "loki-checkout\/magento2-icepay",
     "version": "2.0.4",
-    "description": "N/A",
+    "description": "N\/A",
     "keywords": [
         "loki-payment"
     ],
     "type": "magento2-module",
     "require": {
         "ext-pcre": "*",
-        "icepay/magento2": "^1.0",
-        "loki-checkout/magento2-core": "^2.0",
-        "magento/framework": "^103.0"
+        "icepay\/magento2": "^1.0",
+        "loki-checkout\/magento2-core": "^2.0",
+        "magento\/framework": "^103.0"
     },
     "license": "OSL-3.0",
     "autoload": {
