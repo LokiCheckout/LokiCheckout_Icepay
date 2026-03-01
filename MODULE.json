@@ -1,4 +1,5 @@
 {
+    "integration": true,
     "sequence": [
         "Icepay_Payment",
         "LokiCheckout_Core",
