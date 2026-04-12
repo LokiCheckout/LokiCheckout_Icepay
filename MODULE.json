@@ -33,5 +33,7 @@
     ],
     "components": [],
     "config": [],
-    "tests": []
+    "tests": [],
+    "module_name": "LokiCheckout_Icepay",
+    "composer_name": "loki-checkout/magento2-icepay"
 }
