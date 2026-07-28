@@ -21,5 +21,8 @@
         "psr-4": {
             "LokiCheckout\\Icepay\\": ""
         }
+    },
+    "extra": {
+        "label": "ICEPAY"
     }
 }
