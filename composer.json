@@ -24,6 +24,11 @@
         }
     },
     "extra": {
-        "label": "ICEPAY"
+        "label": "ICEPAY",
+        "loki": {
+            "countries": [
+                "NL"
+            ]
+        }
     }
 }
