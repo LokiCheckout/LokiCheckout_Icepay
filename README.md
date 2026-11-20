@@ -25,6 +25,29 @@ Next, enable this module:
 bin/magento module:enable LokiCheckout_Icepay Icepay_Payment
 ```
 
+## Supported payment methods
+- Bancontact (`icepay_bancontact`)
+- Credit Card (`icepay_creditcard`)
+- EPS (`icepay_eps`)
+- iDEAL | Wero (`icepay_ideal`)
+- Online Überweisen (`icepay_onlineueberweisen`)
+- PayPal (`icepay_paypal`)
+- SOFORT (`icepay_sofort`)
+
+Each payment method is shown with its own icon in the checkout.
+
+## Configuration
+Configure ICEPAY under **Stores > Configuration > Sales > Payment Methods > ICEPAY**:
+
+- Enable ICEPAY (`payment/icepay/active`);
+- Enter the **Merchant ID** (`payment/icepay/merchant_id`) and **Merchant Secret** (`payment/icepay/merchant_secret`). Without both, the ICEPAY payment methods are hidden;
+- Enable each payment method you want to offer (`payment/icepay/<method>/active`).
+
+This module itself has no configuration options.
+
+## Checkout flow
+After the order is placed with an ICEPAY payment method, the shopper is sent to the ICEPAY payment page (via `icepay/payment/redirect`). Once the payment is completed, ICEPAY sends the shopper back to the success page. If the payment is not completed (for instance because it expired), the cart is restored and the shopper is sent back to the shopping cart.
+
 
 ## Current status
 

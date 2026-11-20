@@ -46,7 +46,11 @@
     ],
     "components": [],
     "config": [],
-    "tests": [],
+    "tests": {
+        "unit": 12,
+        "integration": 8,
+        "functional": 6
+    },
     "module_name": "LokiCheckout_Icepay",
     "composer_name": "loki-checkout/magento2-icepay",
     "php_versions": [
