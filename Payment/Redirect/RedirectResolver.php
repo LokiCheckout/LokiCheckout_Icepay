@@ -15,10 +15,11 @@ class RedirectResolver implements RedirectResolverInterface
 
     public function resolve(RedirectContext $redirectContext): false|string
     {
-        if (str_starts_with($redirectContext->getPaymentMethod(), 'icepay_icepay')) {
-            return $this->urlFactory->create()->getUrl('icepay/payment/redirect');
+        $paymentMethod = $redirectContext->getPaymentMethod();
+        if (false === $paymentMethod || false === str_starts_with($paymentMethod->getCode(), 'icepay_')) {
+            return false;
         }
 
-        return false;
+        return $this->urlFactory->create()->getUrl('icepay/payment/redirect');
     }
 }
