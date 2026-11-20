@@ -6,6 +6,7 @@ namespace LokiCheckout\Icepay\Test\Unit\Payment\Icon;
 
 use LokiCheckout\Core\Payment\Icon\IconResolverContext;
 use LokiCheckout\Icepay\Payment\Icon\IconResolver;
+use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 final class IconResolverTest extends TestCase
@@ -37,7 +38,7 @@ final class IconResolverTest extends TestCase
         $this->assertFalse($this->createInstance()->resolve($iconResolverContext));
     }
 
-    private function createIconResolverContext(string $paymentMethodCode): IconResolverContext
+    private function createIconResolverContext(string $paymentMethodCode): IconResolverContext&MockObject
     {
         $iconResolverContext = $this->createMock(IconResolverContext::class);
         $iconResolverContext->method('getPaymentMethodCode')->willReturn($paymentMethodCode);
