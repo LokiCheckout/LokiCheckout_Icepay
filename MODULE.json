@@ -50,10 +50,10 @@
     "module_name": "LokiCheckout_Icepay",
     "composer_name": "loki-checkout/magento2-icepay",
     "php_versions": [
-        "8.1",
         "8.2",
         "8.3",
-        "8.4"
+        "8.4",
+        "8.5"
     ],
     "skip_magento_versions": [],
     "skip_css_utils": false,
