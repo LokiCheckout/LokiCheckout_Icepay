@@ -3,7 +3,7 @@
     <type name="LokiCheckout\Core\Payment\Icon\IconResolverListing">
         <arguments>
             <argument name="iconResolvers" xsi:type="array">
-                <item name="empty-payment" xsi:type="object">LokiCheckout\Icepay\Payment\Icon\IconResolver</item>
+                <item name="icepay" xsi:type="object">LokiCheckout\Icepay\Payment\Icon\IconResolver</item>
             </argument>
         </arguments>
     </type>
@@ -11,7 +11,7 @@
     <type name="LokiCheckout\Core\Payment\Redirect\RedirectResolverListing">
         <arguments>
             <argument name="redirectResolvers" xsi:type="array">
-                <item name="empty-payment" xsi:type="object">LokiCheckout\Icepay\Payment\Redirect\RedirectResolver</item>
+                <item name="icepay" xsi:type="object">LokiCheckout\Icepay\Payment\Redirect\RedirectResolver</item>
             </argument>
         </arguments>
     </type>
@@ -19,14 +19,13 @@
     <type name="LokiCheckout\Icepay\Payment\Icon\IconResolver">
         <arguments>
             <argument name="iconMapping" xsi:type="array">
-                <item name="icepay_bancontact" xsi:type="string">LokiCheckout_Icepay::images/method/bancontact.svg</item>
-                <item name="icepay_creditcard" xsi:type="string">LokiCheckout_Icepay::images/method/creditcard.svg</item>
-                <item name="icepay_direct_debit" xsi:type="string">LokiCheckout_Icepay::images/method/direct_debit.svg</item>
-                <item name="icepay_eps" xsi:type="string">LokiCheckout_Icepay::images/method/eps.svg</item>
-                <item name="icepay_ideal" xsi:type="string">LokiCheckout_Icepay::images/method/ideal.svg</item>
-                <item name="icepay_paypal" xsi:type="string">LokiCheckout_Icepay::images/method/paypal.svg</item>
-                <item name="icepay_sofort" xsi:type="string">LokiCheckout_Icepay::images/method/sofort.svg</item>
-                <item name="icepay_onlineueberweisen" xsi:type="string">LokiCheckout_Icepay::images/method/onlineueberweisen.svg</item>
+                <item name="icepay_bancontact" xsi:type="string">LokiCheckout_Icepay::images/method/bancontact</item>
+                <item name="icepay_creditcard" xsi:type="string">LokiCheckout_Icepay::images/method/creditcard</item>
+                <item name="icepay_eps" xsi:type="string">LokiCheckout_Icepay::images/method/eps</item>
+                <item name="icepay_ideal" xsi:type="string">LokiCheckout_Icepay::images/method/ideal</item>
+                <item name="icepay_paypal" xsi:type="string">LokiCheckout_Icepay::images/method/paypal</item>
+                <item name="icepay_sofort" xsi:type="string">LokiCheckout_Icepay::images/method/sofort</item>
+                <item name="icepay_onlineueberweisen" xsi:type="string">LokiCheckout_Icepay::images/method/onlineueberweisen</item>
             </argument>
         </arguments>
     </type>

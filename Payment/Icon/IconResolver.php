@@ -23,7 +23,6 @@ class IconResolver implements IconResolverInterface
             return false;
         }
 
-        $imageId = $this->iconMapping[$paymentMethodCode];
-        return $iconResolverContext->getIconOutput($imageId);
+        return $iconResolverContext->getIconAsset($this->iconMapping[$paymentMethodCode], ['svg']);
     }
 }
