@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.6] - 26 November 2026
+### Fixed
+- Placing an order with any ICEPAY payment method now redirects the customer to ICEPAY, instead of failing with a TypeError for every order
+- ICEPAY payment method icons are now rendered inline in the checkout instead of showing up as broken images (and no longer clash with other modules registering under the generic `empty-payment` resolver name)
+
 ## [2.0.5] - 08 November 2026
 ### Fixed
 - Remove PHP 8.1 support, add PHP 8.5 support
